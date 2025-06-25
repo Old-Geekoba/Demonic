@@ -69,7 +69,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_rnjyy")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4dvvg"]
-size = Vector2(2302, 921)
+size = Vector2(2302, 414)
 
 [node name="Node2D" type="Node2D"]
 position = Vector2(1, 0)
@@ -94,7 +94,7 @@ layer_1/tile_data = PackedInt32Array(327680, 0, 0, 327681, 0, 0, 327682, 0, 0, 3
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-2161, 1196.5)
+position = Vector2(-2161, 1450)
 shape = SubResource("RectangleShape2D_4dvvg")
 
 [connection signal="body_entered" from="Area2D" to="CharacterBody2D" method="_on_pitfall_entered"]
