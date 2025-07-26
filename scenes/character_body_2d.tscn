@@ -61,16 +61,13 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 	blocking = false
 	
 func _on_pitfall_entered(body: Node2D) -> void:
-	print(\"entered the pitfall\")
-	print (position.x)
 	position.x=0
 	get_tree().change_scene_to_file(\"res://scenes/gluttony.tscn\")
 
 
 func _on_left_boundary(body: Node2D) -> void:
 	position.x=get_viewport_rect().size.x + $CollisionShape2D.shape.radius *2
-	print (\"left\")
-	print (position.x)
+	
 
 
 func _on_area_2d_2_body_entered(body: Node2D) -> void:
