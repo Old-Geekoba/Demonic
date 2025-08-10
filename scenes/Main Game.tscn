@@ -1,14 +1,14 @@
 [gd_scene load_steps=29 format=3 uid="uid://roapedkaom0i"]
 
-[ext_resource type="PackedScene" uid="uid://53cx4lvlwrj6" path="res://scenes/character_body_2d.tscn" id="1_4dvvg"]
-[ext_resource type="Texture2D" uid="uid://himiep4l5y4r" path="res://assets/9Princes spritesheets/Image 2.png" id="2_4dvvg"]
-[ext_resource type="Script" uid="uid://drtwkvdejlu1j" path="res://area_2d_2.gd" id="3_4vge2"]
-[ext_resource type="Texture2D" uid="uid://depcuukw8s6sr" path="res://assets/9Princes spritesheets/Image.png" id="3_rnjyy"]
-[ext_resource type="Texture2D" uid="uid://bscf3rxe5ohpj" path="res://assets/9Princes spritesheets/button.png" id="5_04qyp"]
-[ext_resource type="Script" uid="uid://d1fdam5xx6wpv" path="res://scenes/text_button.gd" id="6_j7wrs"]
+[ext_resource type="Texture2D" uid="uid://bscf3rxe5ohpj" path="res://assets/9Princes spritesheets/button.png" id="1_euotq"]
+[ext_resource type="Script" uid="uid://d1fdam5xx6wpv" path="res://scenes/text_button.gd" id="2_0pvjy"]
+[ext_resource type="PackedScene" uid="uid://53cx4lvlwrj6" path="res://scenes/Player.tscn" id="3_olgiw"]
+[ext_resource type="Texture2D" uid="uid://himiep4l5y4r" path="res://assets/9Princes spritesheets/Image 2.png" id="4_n8fj8"]
+[ext_resource type="Script" uid="uid://drtwkvdejlu1j" path="res://area_2d_2.gd" id="5_ais04"]
+[ext_resource type="Texture2D" uid="uid://depcuukw8s6sr" path="res://assets/9Princes spritesheets/Image.png" id="6_n6h6s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j7wrs"]
-texture = ExtResource("2_4dvvg")
+texture = ExtResource("4_n8fj8")
 texture_region_size = Vector2i(480, 480)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-240, -240, 240, -240, 240, 240, -240, 240)
@@ -52,31 +52,31 @@ sources/2 = SubResource("TileSetAtlasSource_j7wrs")
 size = Vector2(2302, 414)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_04qyp"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(0, 0, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j7wrs"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(500, 0, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fws66"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(1000, 0, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hh0fu"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(1500, 0, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3m5ht"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(0, 500, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dubn7"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(500, 500, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_08kqv"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(1000, 500, 500, 500)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_f6ptj"]
@@ -112,7 +112,7 @@ animations = [{
 radius = 146.168
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4vge2"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(1500, 500, 500, 500)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_04qyp"]
@@ -127,7 +127,7 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f6ptj"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(0, 1000, 500, 500)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hsdmi"]
@@ -142,7 +142,7 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ifa78"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(500, 1000, 500, 500)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xtx0q"]
@@ -157,7 +157,7 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3kg8w"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(1000, 1000, 500, 500)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_x63s8"]
@@ -172,7 +172,7 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0q20i"]
-atlas = ExtResource("3_rnjyy")
+atlas = ExtResource("6_n6h6s")
 region = Rect2(1500, 1000, 500, 500)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qv8l0"]
@@ -198,12 +198,12 @@ offset_right = 7519.0
 offset_bottom = 993.0
 theme_override_font_sizes/font_size = 79
 text = "Talk to Aristotle!"
-icon = ExtResource("5_04qyp")
+icon = ExtResource("1_euotq")
 flat = true
 icon_alignment = 1
-script = ExtResource("6_j7wrs")
+script = ExtResource("2_0pvjy")
 
-[node name="Player" parent="." instance=ExtResource("1_4dvvg")]
+[node name="Player" parent="." instance=ExtResource("3_olgiw")]
 top_level = true
 position = Vector2(913, -268)
 
@@ -227,7 +227,7 @@ position = Vector2(-2167, 1206)
 shape = SubResource("RectangleShape2D_4dvvg")
 
 [node name="AristotleArea2D" type="Area2D" parent="."]
-script = ExtResource("3_4vge2")
+script = ExtResource("5_ais04")
 
 [node name="Aristotle" type="AnimatedSprite2D" parent="AristotleArea2D"]
 position = Vector2(7009, 106)
